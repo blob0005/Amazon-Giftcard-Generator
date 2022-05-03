@@ -10,12 +10,11 @@ Setup:
 6. select all and click next
 7. wait until downloaded
 8. click close
-9. run setup.bat
-10. run start.bat
-11. enter y if wanna save and n if no save
-12. then type how many codes you want
-13. then enter delay, 0 = none
-14. started generator
+9. run start.bat
+10. enter y if wanna save and n if no save
+11. then type how many codes you want
+12. then enter delay, 0 = none
+13. started generator
 
 #-----------------
 
