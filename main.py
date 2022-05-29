@@ -1,5 +1,11 @@
 import random
 import time
+try:
+    import os
+    from os import system
+    system("title " + "Amazon Giftcard Generator")
+except:
+    pass
 while True:
   save = input("Wanna Auto Save (y/n): ")
   if save == "y" or save == "n":
