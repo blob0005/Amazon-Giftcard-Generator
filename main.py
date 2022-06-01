@@ -29,21 +29,8 @@ while True:
 donegen = 0
 choices = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 for i in range(int(amount)):
-  r1 = random.choice(choices)
-  r2 = random.choice(choices)
-  r3 = random.choice(choices)
-  r4 = random.choice(choices)
-  r5 = random.choice(choices)
-  r6 = random.choice(choices)
-  r7 = random.choice(choices)
-  r8 = random.choice(choices)
-  r9 = random.choice(choices)
-  r10 = random.choice(choices)
-  r11 = random.choice(choices)
-  r12 = random.choice(choices)
-  r13 = random.choice(choices)
-  r14 = random.choice(choices)
-  code = r1 + r2 + r3 + r4 + r5 + r6 + r7 + r8 + r9 + r10 + r11 + r12 + r13 + r14
+  r1 = random.choices(choices, k=14)
+  code = "".join(r1)
   if save == "y":
     file = open("unchecked_amazon_codes.txt", "a")
     file.write(code + "\n")
